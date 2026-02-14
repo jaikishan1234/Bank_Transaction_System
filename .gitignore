@@ -1,0 +1,93 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Build / Dist
+# =========================
+dist/
+build/
+.next/
+.nuxt/
+.out/
+coverage/
+*.tsbuildinfo
+
+# =========================
+# Database
+# =========================
+*.sqlite
+*.sqlite3
+*.db
+
+# =========================
+# Docker
+# =========================
+.docker/
+docker-compose.override.yml
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Testing
+# =========================
+coverage/
+.nyc_output/
+
+# =========================
+# Misc
+# =========================
+tmp/
+temp/
+.cache/
+.eslintcache
